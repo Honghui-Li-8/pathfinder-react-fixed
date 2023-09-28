@@ -1,24 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Matrix from './components/BlockMatrix/Matrix';
+import AlgorithmRunner from './components/AlgorithmRunner';
+import aStar from './algorithm/aStar';
+
 
 function App() {
+  var algorithm = aStar;
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <Matrix />
+      <AlgorithmRunner algorithm={algorithm} />
+    </React.Fragment>
   );
 }
 
