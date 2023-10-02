@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pathfinder-react-fixed/static/css/main.a7d54a95.css",
+    "main.js": "/pathfinder-react-fixed/static/js/main.2d65f115.js",
+    "index.html": "/pathfinder-react-fixed/index.html",
+    "main.a7d54a95.css.map": "/pathfinder-react-fixed/static/css/main.a7d54a95.css.map",
+    "main.2d65f115.js.map": "/pathfinder-react-fixed/static/js/main.2d65f115.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7d54a95.css",
+    "static/js/main.2d65f115.js"
+  ]
+}
